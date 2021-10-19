@@ -1,9 +1,11 @@
 package com.hks.hellospring.repository;
 
 import com.hks.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
+
 
 public interface MemberRepository {
     Member save(Member member);
