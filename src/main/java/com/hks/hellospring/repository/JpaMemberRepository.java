@@ -11,7 +11,6 @@ public class JpaMemberRepository implements MemberRepository {
 
     private final EntityManager em;
 
-    @Autowired
     public JpaMemberRepository(EntityManager em) {
         this.em = em;
     }
